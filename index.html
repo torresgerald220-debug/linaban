@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My First Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f4f4;
+      color: #222;
+    }
+
+    /* HEADER */
+    header {
+      background: #1a73e8;
+      color: white;
+      text-align: center;
+      padding: 60px 20px 50px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    /* NAV */
+    nav {
+      background: #2c2c2c;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 16px 20px;
+    }
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: #1a73e8; }
+
+    /* MAIN CONTENT */
+    main {
+      max-width: 860px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 40px 36px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      text-align: center;
+    }
+    .card h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    .card p {
+      font-size: 1rem;
+      color: #444;
+      line-height: 1.7;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #2c2c2c;
+      color: #ccc;
+      text-align: center;
+      padding: 22px;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My First Website</h1>
+    <p>Welcome to my deployed website!</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <div class="card">
+      <h2>About Me</h2>
+      <p>Hello! My name is Jushua Cuizon. This is my simple website.</p>
+    </div>
+
+    <div class="card">
+      <h2>My School</h2>
+      <p>I am a student of SCC learning website deployment using GitHub Pages.</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 My First Website
+  </footer>
+
+</body>
+</html>
